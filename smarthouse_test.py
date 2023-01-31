@@ -59,7 +59,7 @@ class SmartHouseTest(unittest.TestCase):
         self.assertEqual("Aktuator(627ff5f3-f4f5-47bd) TYPE: Smart Lys STATUS: ON PRODUCT DETAILS: Fritsch Group Alphazap 2", dev25.__repr__())
         SmartHouseTest.house.set_temperature_in_room(master_bedroom, 20.5)
         self.assertEqual("Aktuator(eed2cba8-eb13-4023) TYPE: Varmepumpe STATUS: 20.5 °C PRODUCT DETAILS: Osinski Inc Fintone XCX2FF", SmartHouseTest.house.find_device_by_serial_no("eed2cba8-eb13-4023").__repr__())
-        SmartHouseTest.house.turn_of_lights_in_room(master_bedroom)
+        SmartHouseTest.house.turn_off_lights_in_room(master_bedroom)
         self.assertEqual("Aktuator(627ff5f3-f4f5-47bd) TYPE: Smart Lys STATUS: OFF PRODUCT DETAILS: Fritsch Group Alphazap 2", dev25.__repr__())
 
 
