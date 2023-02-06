@@ -6,7 +6,7 @@ class SmartHouseTest(unittest.TestCase):
     house = main.build_demo_house()
 
     def test_no_of_rooms(self):
-        self.assertEqual(11, SmartHouseTest.house.get_no_of_rooms())  # add assertion here
+        self.assertEqual(12, SmartHouseTest.house.get_no_of_rooms())  # add assertion here
 
     def test_area(self):
         self.assertEqual(156.55, SmartHouseTest.house.get_total_area())
