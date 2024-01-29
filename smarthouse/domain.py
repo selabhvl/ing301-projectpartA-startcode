@@ -1,3 +1,17 @@
+class Measurement:
+    """
+    This class represents a measurement taken from a sensor.
+    """
+
+    def __init__(self, timestamp, value, unit):
+        self.timestamp = timestamp
+        self.value = value
+        self.unit = unit
+
+
+
+# TODO: Add your own classes here!
+
 
 class SmartHouse:
     """
@@ -59,23 +73,4 @@ class SmartHouse:
         This method retrieves a device object via its id.
         """
         pass
-
-
-
-class Measurement:
-    """
-    This class represents a measurement taken from a sensor.
-    """
-
-    def __init__(self, timestamp, value, unit) -> None:
-        self.timestamp = timestamp
-        self.value = value
-        self.unit = unit
-
-
-
-# END of pre-defined classes
-
-# TODO: Add your own classes here!
-        
 
