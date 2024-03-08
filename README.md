@@ -1,9 +1,9 @@
 # Starterkode ING301 Prosjekt - Del A: Part A: Domenemodell og Basisfunksjonalitet
 
 <p style="color:red">
-_Du kan gjerne fjerne innholdet i denne filen og skrive din egen dokumentasjon av SmartHus-applikasjonen i denne
+Du kan gjerne fjerne innholdet i denne filen og skrive din egen dokumentasjon av SmartHus-applikasjonen i denne
  [README.md](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) filen 
- etter at du har laget din kopi at dette repository._
+ etter at du har laget din kopi at dette repository.
 </p>
 
 
@@ -17,7 +17,7 @@ Du kommer til en ny side.
 Her skal du gi repo'en et godt navn, f.eks. noe somm inneholder ing301 og ditt gruppenummer.
 Du skal gjøre repo'en privat slik at bare inviterte folk kan se inneholdet.
 
-![Skjermmbilde: Create from Templae](https://raw.githubusercontent.com/selabhvl/ing301public/main/resources/images/skjermbildet-template-repo.jpg)
+![Skjermbilde: Hvordan man lager et nytt repository basert på en templat på GitHub](https://raw.githubusercontent.com/selabhvl/ing301public/main/resources/images/skjermbildet-template-repo.jpg)
 
 Når du har opprettet repo'en kan du dele tilgang med dine gruppemedlemmer.
 Når du er på hovedsiden (dvs. `https://github.com/{ditt brukernavn}/{ditt valgte repo navn}`) går du på "Settings" > "Collaborators and teams" > "Add people":
@@ -25,7 +25,7 @@ Du kan søke opp de andre med deres GitHub brukernavn eller epost.
 Alle gruppemedlemmer må minst ha `Write`-rollen.
 I tillegg skal dere legge til github brukerne til [Patrick](https://github.com/webminz) (@webminz) og [Lars](https://github.com/lmkr) (@lmkr) med rollen `Read`.
 
-![Skjermbildet: Legg til medlemmer](https://raw.githubusercontent.com/selabhvl/ing301public/main/resources/images/screenshot-github-collaborators.png)
+![Skjermbilde: Hvordan man legger til medlemmer i et repository på GitHub](https://raw.githubusercontent.com/selabhvl/ing301public/main/resources/images/screenshot-github-collaborators.png)
 
 Når tilgangene er på plass kan alle i gruppen ssjekke ut koden på vanlig måte.
 Trykk på "Code" på hovedsiden og så kopierer du URLen.
@@ -58,7 +58,7 @@ Når dere åpner prosjektet vil dere se følgende mappestruktur:
 
 De _fire_ relevante plassene i denne mappestrukturen er markert med kommentarer.
 
-## Fremgansmåte
+## Fremgangsmåte
 
 **For mange blir det sikkert første gang at dere utvikler et større programvaresystem. Det er viktig _"en dyp pust inn"_ før dere
 setter i gang. For å ikke bli overveldet, har vi lagt en steg-for-steg oppskrift hvordan denne oppgaven skal løses:**
