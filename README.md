@@ -1,10 +1,7 @@
 # Starterkode ING301 Prosjekt - Del A: Part A: Domenemodell og Basisfunksjonalitet
 
-<p style="color:red">
-Du kan gjerne fjerne innholdet i denne filen og skrive din egen dokumentasjon av SmartHus-applikasjonen i denne
- [README.md](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) filen 
- etter at du har laget din kopi at dette repository.
-</p>
+> [!NOTE]
+> Du kan gjerne fjerne innholdet i denne filen og skrive din egen dokumentasjon av SmartHus-applikasjonen i denne [README.md](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) filen  etter at du har laget din kopi at dette repository!
 
 
 ## Utsjekk og 'kom i gang'
@@ -73,9 +70,9 @@ setter i gang. For å ikke bli overveldet, har vi lagt en steg-for-steg oppskrif
 3. Som neste steg anbefaler vi at dere tar en kikk på klassen `SmartHouse` i `smarthouse/domain.py`: Her finner dere en rekke funksjoner som mangler en korrekt implementasjon.
     Deres oppgave er å skrive funksjonaliteten til hver enkelt funksjon som det er beskrevet i kommentaren ved å bruke deres nylagte klasser.
 4. Etterpå kan dere begynne å legge inn et "Demo Hus" som er beskrevet på [denne siden](https://github.com/selabhvl/ing301public/blob/main/project/demo.md). Dette skal gjøres i files `tests/demo_house.py`
-    ved å bruke de forskjellige `regiser_`-funskjonene i `SmartHouse` som dere har nettop implementert. 
+    ved å bruke de forskjellige `register_`-funskjonene i `SmartHouse` som dere har nettop implementert. 
 5. Til slutt gjenstår det å få alle tester i `tests/test_part_a.py` til å bestå. Sjekk implementasjonskravene nedenfor for å sjekke 
-    om dere eventuelt trenger å utvide dere klasse om noen attributter eller metoder. 
+    om dere eventuelt trenger å utvide klassene deres om noen attributter eller metoder. 
 
 
 ## Implementasjonskrav
@@ -94,5 +91,5 @@ I de gitte Unit-testene forventes det at objekter som representerer enheter tilb
 - Alle aktuatorer skal tilby metodene: `turn_on()`, `turn_off()`, `is_active()`. Sistnevnte skal returnere `True` hvis enheten har blitt slått 
  på med `turn_on()`. Tar også hensyn til at visse aktuatorer kan også gis et "`target_value`" (f.eks. panelovn eller varmepumper kan settes til en ønsket temperatur).
 
-Tar gjerne en titt i [testfilen](https://github.com/selabhvl/ing301-projectpartA-startcode/blob/main/tests/test_part_a.py) for å sjekke hvilke funksjoner forventes av deres domenemodell.
+Ta gjerne en titt i [testfilen](https://github.com/selabhvl/ing301-projectpartA-startcode/blob/main/tests/test_part_a.py) for å sjekke hvilke funksjoner forventes av deres domenemodell.
 
