@@ -4,23 +4,22 @@
 > Du kan gjerne fjerne innholdet i denne filen og skrive din egen dokumentasjon av SmartHus-applikasjonen i denne [README.md](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) filen  etter at du har laget din kopi at dette repository!
 
 
-## Utsjekk og 'kom i gang'
+## Steg 1: Utsjekk og 'kom i gang'
 
-**OBS! Det er bare en per gruppe som skal utføre følgende steg:**
+**OBS! Det er bare en per gruppe som må utføre dette:**
 
 Trykk på "Use this template".
 Velg første opsjon "Create a new repository".
 Du kommer til en ny side.
 Her skal du gi repo'en et godt navn, f.eks. noe somm inneholder ing301 og ditt gruppenummer.
-Du skal gjøre repo'en privat slik at bare inviterte folk kan se inneholdet.
 
 ![Skjermbilde: Hvordan man lager et nytt repository basert på en templat på GitHub](https://raw.githubusercontent.com/selabhvl/ing301public/main/resources/images/skjermbildet-template-repo.jpg)
 
-Når du har opprettet repo'en kan du dele tilgang med dine gruppemedlemmer.
-Når du er på hovedsiden (dvs. `https://github.com/{ditt brukernavn}/{ditt valgte repo navn}`) går du på "Settings" > "Collaborators and teams" > "Add people":
+Dere kan velge om repo skal være public eller private.
+For at de andre gruppemedlemmer kunne _pushe_ til din repo må du legge dem til med `Write`-rettigheter.
+Detter gjør du når du går til hovedsiden (dvs. `https://github.com/{ditt brukernavn}/{ditt valgte repo navn}`) og så på "Settings" > "Collaborators and teams" > "Add people":
 Du kan søke opp de andre med deres GitHub brukernavn eller epost.
-Alle gruppemedlemmer må minst ha `Write`-rollen.
-I tillegg skal dere legge til github brukerne til [Patrick](https://github.com/webminz) (@webminz) og [Lars](https://github.com/lmkr) (@lmkr) med rollen `Read`.
+Hvis dere har valg å ha deres repo privat må dere legge til [faglæreren](https://github.com/webminz) i dette repo med `Read`-rettigheter også.
 
 ![Skjermbilde: Hvordan man legger til medlemmer i et repository på GitHub](https://raw.githubusercontent.com/selabhvl/ing301public/main/resources/images/screenshot-github-collaborators.png)
 
@@ -30,7 +29,7 @@ I GitHub Dekstop på venstre siden trykker du på "Add" > "Clone Repository" og 
 Da vil du få lastet ned koden lokalt og du kan begynne med prosjektet.
 Vi anbefaler at du åpner prosjektet i VS Code eller PyCharm som du hadde gjort med oppvarmingsoppgaven.
 
-## Mappestruktur
+## Steg 2: Mappestruktur
 
 Når dere åpner prosjektet vil dere se følgende mappestruktur:
 
@@ -55,7 +54,7 @@ Når dere åpner prosjektet vil dere se følgende mappestruktur:
 
 De _fire_ relevante plassene i denne mappestrukturen er markert med kommentarer.
 
-## Fremgangsmåte
+## Steg 3: Sett i gang 
 
 **For mange blir det sikkert første gang at dere utvikler et større programvaresystem. Det er viktig _"en dyp pust inn"_ før dere
 setter i gang. For å ikke bli overveldet, har vi lagt en steg-for-steg oppskrift hvordan denne oppgaven skal løses:**
@@ -75,7 +74,7 @@ setter i gang. For å ikke bli overveldet, har vi lagt en steg-for-steg oppskrif
     om dere eventuelt trenger å utvide klassene deres om noen attributter eller metoder. 
 
 
-## Implementasjonskrav
+### Implementasjonskrav
 
 I de gitte Unit-testene forventes det at objekter som representerer enheter tilbyr spesifikke funksjoner, konkret:
 
