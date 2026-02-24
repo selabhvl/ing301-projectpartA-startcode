@@ -59,7 +59,7 @@ De _fire_ relevante plassene i denne mappestrukturen er markert med kommentarer.
 **For mange blir det sikkert første gang at dere utvikler et større programvaresystem. Det er viktig _"en dyp pust inn"_ før dere
 setter i gang. For å ikke bli overveldet, har vi lagt en steg-for-steg oppskrift hvordan denne oppgaven skal løses:**
 
-1. Begynn med å lese nøye gjennom [Problembeskrivelsen](https://github.com/selabhvl/ing301public/blob/main/project/index.md) og lag deretter en _domenemodell_ (klassediagramm) av det hele.
+1. Begynn med å lese nøye gjennom [Problembeskrivelsen](https://github.com/selabhvl/ing301public/blob/main/general/project/index.md) og lag deretter en _domenemodell_ (klassediagramm) av det hele.
    Du skal lage forskjellige klasser for de foskjellige enhetene. Inkluder også de klassene som allerede finnes i `smarthouse/domain.py`.
    Du kan tegne klassedigramm enten på ark/whiteboard (husk å scanne det etterpå eller ta bildet) eller et grafisk verktøy som [diagrams.net](https://www.diagrams.net/) eller [Figma](https://www.figma.com/).
    Klassediagrammet skal lagres enten som PDF eller bildefil (`.jpg`, `.png`, `.svg`) og lastes opp i roten til repo'en med navn `domainmodel.<filtype>` (dette skal være deres første egen commit!). 
@@ -68,7 +68,7 @@ setter i gang. For å ikke bli overveldet, har vi lagt en steg-for-steg oppskrif
    Tenk på hva slags attributter (dvs. de som settes i konstruktor: `__init__`-funskjonen) og _metodene_ (funksjoner innen en klasse) hver enkelt klasse trenger.
 3. Som neste steg anbefaler vi at dere tar en kikk på klassen `SmartHouse` i `smarthouse/domain.py`: Her finner dere en rekke funksjoner som mangler en korrekt implementasjon.
     Deres oppgave er å skrive funksjonaliteten til hver enkelt funksjon som det er beskrevet i kommentaren ved å bruke deres nylagte klasser.
-4. Etterpå kan dere begynne å legge inn et "Demo Hus" som er beskrevet på [denne siden](https://github.com/selabhvl/ing301public/blob/main/project/demo.md). Dette skal gjøres i files `tests/demo_house.py`
+4. Etterpå kan dere begynne å legge inn et "Demo Hus" som er beskrevet på [denne siden](https://github.com/selabhvl/ing301public/blob/main/general/project/demo.md). Dette skal gjøres i files `tests/demo_house.py`
     ved å bruke de forskjellige `register_`-funskjonene i `SmartHouse` som dere har nettop implementert. 
 5. Til slutt gjenstår det å få alle tester i `tests/test_part_a.py` til å bestå. Sjekk implementasjonskravene nedenfor for å sjekke 
     om dere eventuelt trenger å utvide klassene deres om noen attributter eller metoder. 
